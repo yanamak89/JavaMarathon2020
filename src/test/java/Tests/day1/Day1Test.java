@@ -28,7 +28,8 @@ public class Day1Test extends AbstractTest {
 
     @Test
     public void Task3() {
-        final String resultString = "JAVA" + System.lineSeparator() +
+        final String resultString =
+                "JAVA" + System.lineSeparator() +
                 "JAVA" + System.lineSeparator() +
                 "JAVA" + System.lineSeparator() +
                 "JAVA" + System.lineSeparator() +

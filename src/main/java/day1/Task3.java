@@ -19,7 +19,7 @@ JAVA
 
         int value = 0;
         while (value < 10) {
-            System.out.println("JAVA ");
+            System.out.println("JAVA");
             value = value + 1;
         }
     }
