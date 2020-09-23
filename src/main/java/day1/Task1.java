@@ -11,7 +11,7 @@ JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA JAVA
         int value = 0;
         while (value < 10) {
             System.out.print("JAVA ");
-            value = value + 1;
+            value ++;
         }
 
     }

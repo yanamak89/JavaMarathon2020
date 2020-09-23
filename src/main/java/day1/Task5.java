@@ -7,7 +7,7 @@ public class Task5 {
 */
 
         int year = 1980;
-        for (int i = year; i <= 2020; i = i + 3) {
+        for (int i = year; i <= 2020; i+= 3) {
             System.out.println("Олимпиада " + i + " года");
             i++;
         }

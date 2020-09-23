@@ -26,10 +26,10 @@ k = 3
 
 */
 
-        int k = 3;
-        for(int i = 1; i <= 9; i=i+1){
-            int j = i * k;
-            System.out.println(i + " x " + k + " = " + j);
+        int k = 7;
+        for(int i = 1; i <= 9; i+=1){
+            //int j = i * k;
+            System.out.println(i + " x " + k + " = " + i * k);
         }
     }
 
