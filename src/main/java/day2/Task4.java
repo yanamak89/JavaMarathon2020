@@ -2,10 +2,7 @@ package day2;
 
 import java.util.Scanner;
 
-public class Task4 {
-    public static void main(String[] args) {
-/*
-
+/**
 4.  Y = (Math.paw(x * 2) - 10 / (x + 7)) -> x>=5
     y = (x + 3) * (Math.paw(x*2)-2) -> -3 < x && x < 5
     y = 420 -> else
@@ -23,8 +20,10 @@ nextDouble() у Scanner’а соответственно, чтобы счита
 Например, если x = 100, будет использовано самое первое выражение.
 С помощью него, используя значение x будет вычислено значение y.
 y = (100^2 - 10) / (100 + 7) = 93.3644859813
-
  */
+
+public class Task4 {
+    public static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
         double x = s.nextDouble();
