@@ -43,43 +43,26 @@ public class Task1 {
         System.out.println("Длинна массива " + array.length);
 
         int counter8 = 0;
+        int counterEquals1 = 0;
+        int counterEven = 0;
+        int counterOdd = 0;
+        int sum = 0;
         for (int i = 0; i < array.length; i++) {
             if (array[i] > 8) {
                 counter8++;
-            }
-        }
-        System.out.println("Количество чисел больше 8: " + counter8);
-
-
-        int counterEquals1 = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == 1) {
+            } else if (array[i] == 1) {
                 counterEquals1++;
-            }
-        }
-        System.out.println("Количество чисел равных 1: " + counterEquals1);
-
-
-        int counterEven = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 == 0) {
+            } else if (array[i] % 2 == 0) {
                 counterEven++;
-            }
-        }
-        System.out.println("Количество четных чисел: " + counterEven);
-
-        int counterOdd = 0;
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] % 2 != 0) {
+            } else if (array[i] % 2 != 0) {
                 counterOdd++;
             }
-        }
-        System.out.println("Количество нечетных чисел: " + counterOdd);
-
-        int sum = 0;
-        for (int i = 0; i < array.length; i++) {
             sum += array[i];
         }
+        System.out.println("Количество чисел больше 8: " + counter8);
+        System.out.println("Количество чисел равных 1: " + counterEquals1);
+        System.out.println("Количество четных чисел: " + counterEven);
+        System.out.println("Количество нечетных чисел: " + counterOdd);
         System.out.println("Сумма всех элементов массива: " + sum);
     }
 }
