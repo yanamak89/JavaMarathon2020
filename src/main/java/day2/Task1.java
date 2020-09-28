@@ -26,13 +26,5 @@ public class Task1 {
         } else{
             System.out.println("Ошибка ввода");
         }
-//
-//        else if (floorCount == 0) {
-//            System.out.println("Ошибка ввода");
-//        } else if (floorCount < 0) {
-//            System.out.println("Ошибка ввода");
-//        }
-
-
     }
 }

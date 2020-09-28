@@ -34,7 +34,6 @@ public class Task3 {
             for (int j = 0; j < martix[i].length; j++) {
                 sum += martix[i][j];
             }
-
             if (sum >= maxSum) {
                 maxSum = sum;
                 maxSumInd = i;
