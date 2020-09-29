@@ -45,11 +45,8 @@ class Motorbike {
         System.out.println("Это мотоцикл");
     }
 
-    int yearDifference() {
-        Scanner scanner = new Scanner(System.in);
-        int inputtedYear = scanner.nextInt();
-        int difference = inputtedYear - year;
-        return difference;
+    int yearDifference(int inputtedYear) {
+        return Math.abs(inputtedYear - year);
     }
 }
 

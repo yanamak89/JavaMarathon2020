@@ -24,10 +24,7 @@ public class Task3 {
     public static void main(String[] args) {
         Teacher teacher = new Teacher("Макарова Юлия Олеговна", "Право");
         Student student = new Student("Макогон Яна Сергеевна");
-
         teacher.evaluate(student);
-
-
     }
 }
 

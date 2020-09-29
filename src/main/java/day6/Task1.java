@@ -16,14 +16,14 @@ public class Task1 {
         car.setModel("Toyota");
         car.info();
         System.out.println("Введи год автомобиля: ");
-        int diff = car.yearDifference();
+        int diff = car.yearDifference(1990);
         System.out.println("Разница между введенным годом и годом выпуска " + diff + " года.");
 
         Motorbike motorbike = new Motorbike();
         motorbike.setYear(1960);
         motorbike.info();
         System.out.println("Введи год мотоцикла: ");
-        int diffMoto = motorbike.yearDifference();
+        int diffMoto = motorbike.yearDifference(2020);
         System.out.println("Разница между введенным годом и годом выпуска " + diffMoto + " года.");
 
 

@@ -45,11 +45,8 @@ public class Car {
         System.out.println("Это автомобиль");
     }
 
-    public int yearDifference() {
-        Scanner scanner = new Scanner(System.in);
-        int inputtedYear = scanner.nextInt();
-        int difference = inputtedYear - year;
-        return Math.abs(difference);
+    public int yearDifference(int inputtedYear) {
+        return Math.abs(inputtedYear - year);
     }
 }
 
