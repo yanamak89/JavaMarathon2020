@@ -1,6 +1,6 @@
-package day10.Task1;
+package day11;
 
-public class Warehouse implements Worker{
+public class Warehouse implements Worker {
     private int countOrder;
     private int balance;
 
