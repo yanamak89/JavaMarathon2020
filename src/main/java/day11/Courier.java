@@ -32,7 +32,7 @@ public class Courier implements Worker {
 
     @Override
     public void bonus() {
-        if (warehouse.getBalance() < 1_000_000) {
+        if (warehouse.getBalance() == 1_000_000) {
             salary *= 2;
         }
     }
