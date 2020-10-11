@@ -38,7 +38,7 @@ public class Task1 {
             int sum = 0;
 
             for (String number : numbersString){
-                sum = Integer.parseInt(number);
+                sum += Integer.parseInt(number);
             }
 
             System.out.println(sum);
